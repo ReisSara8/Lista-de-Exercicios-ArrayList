@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+
+public class Exercicio02 {
+    
+    public static void main(String [] args){
+        
+        ArrayList<String> nomes = new ArrayList<>();
+        
+        nomes.add("Angelina");
+        nomes.add("Cláudio");
+        nomes.add("Marcelo");
+        nomes.add("Beto");
+        nomes.add("Tainara");
+        nomes.add("João Vitor");
+        nomes.add("Cristian");
+        nomes.add("André");
+        nomes.add("Yuri");
+        
+        System.out.println("Nomes: ");
+        System.out.println(nomes.get(0));
+        System.out.println(nomes.get(1));
+        System.out.println(nomes.get(2));
+        System.out.println(nomes.get(3));
+        System.out.println(nomes.get(4));
+        System.out.println(nomes.get(5));
+        System.out.println(nomes.get(6));
+        System.out.println(nomes.get(7));
+        System.out.println(nomes.get(8));
+    }
+    
+}
