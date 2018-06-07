@@ -1,0 +1,44 @@
+import java.util.ArrayList;
+
+public class Exercicio03 {
+    
+    public static void main (String [] args){
+        
+         ArrayList<Character> caracteres = new ArrayList<>();
+        
+       
+        caracteres.add('A');
+        caracteres.add('B');
+        caracteres.add('C');
+        caracteres.add('D');
+        caracteres.add('J');
+        caracteres.add('N');
+        caracteres.add('K');
+        caracteres.add('O');
+        caracteres.add('S');
+        caracteres.add('H');
+        caracteres.add('V');
+        caracteres.add('X');
+        caracteres.add('N');
+        caracteres.add('U');
+        caracteres.add('Z');
+        
+        System.out.println("Letras: " +"\n");
+        System.out.println(caracteres.get(0));
+        System.out.println(caracteres.get(1));
+        System.out.println(caracteres.get(2));
+        System.out.println(caracteres.get(3));
+        System.out.println(caracteres.get(4));
+        System.out.println(caracteres.get(5));
+        System.out.println(caracteres.get(6));
+        System.out.println(caracteres.get(7));
+        System.out.println(caracteres.get(8));
+        System.out.println(caracteres.get(9));
+        System.out.println(caracteres.get(10));
+        System.out.println(caracteres.get(11));
+        System.out.println(caracteres.get(12));
+        System.out.println(caracteres.get(13));
+        System.out.println(caracteres.get(14));
+    }
+    
+}
