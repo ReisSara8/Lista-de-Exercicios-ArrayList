@@ -22,21 +22,21 @@ public class Exercicio06 {
         }
         JOptionPane.showMessageDialog(null,
                 "Olá, confira a seguir a listagem dos números que foram digitados:" + "\n"
-                +"\n" +numeros.get(0)
-                +"\n" +numeros.get(1)
-                +"\n" +numeros.get(2)
-                +"\n" +numeros.get(3)
-                +"\n" +numeros.get(4)
-                +"\n" +numeros.get(5)
-                +"\n" +numeros.get(6)
-                +"\n" +numeros.get(7)
-                +"\n" +numeros.get(8)
-                +"\n" +numeros.get(9)
-                +"\n" +numeros.get(10)
-                +"\n" +numeros.get(11)
-                +"\n" +numeros.get(12)
-                +"\n" +numeros.get(13)
-                +"\n" +numeros.get(14)
+                +"\n1º  - " +numeros.get(0)
+                +"\n2º  - " +numeros.get(1)
+                +"\n3º  - " +numeros.get(2)
+                +"\n4º  - " +numeros.get(3)
+                +"\n5º  - " +numeros.get(4)
+                +"\n6º  - " +numeros.get(5)
+                +"\n7º  - " +numeros.get(6)
+                +"\n8º  - " +numeros.get(7)
+                +"\n9º  - " +numeros.get(8)
+                +"\n10º - " +numeros.get(9)
+                +"\n11º - " +numeros.get(10)
+                +"\n12º - " +numeros.get(11)
+                +"\n13º - " +numeros.get(12)
+                +"\n14º - " +numeros.get(13)
+                +"\n15º - " +numeros.get(14)
         );  
             
     } 
