@@ -1,0 +1,221 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exerciciosarraylist;
+
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author Alunos
+ */
+public class Exercicio07 {
+    
+    public static void main (String[]args){
+        
+        ArrayList<String> nomes = new ArrayList<>();
+        JOptionPane.showMessageDialog(null,"                                 Bem-vindo!" +"\n" +"Por favor, insira nomes nas caixas de textos a seguir.");
+        for (int i = 0; i < 25 ; i++){
+            nomes.add(JOptionPane
+            .showInputDialog("Nomes: "));
+        }
+          
+        JOptionPane.showMessageDialog(null,
+                "Olá, confira a seguir a listagem dos nomes que foram digitados:" + "\n"
+                +"\n1º  - " +nomes.get(0).trim().toLowerCase()
+                +"\n2º  - " +nomes.get(1)
+                +"\n3º  - " +nomes.get(2)
+                +"\n4º  - " +nomes.get(3)
+                +"\n5º  - " +nomes.get(4)
+                +"\n6º  - " +nomes.get(5)
+                +"\n7º  - " +nomes.get(6)
+                +"\n8º  - " +nomes.get(7)
+                +"\n9º  - " +nomes.get(8)
+                +"\n10º  - " +nomes.get(9)
+                +"\n11º  - " +nomes.get(10)
+                +"\n12º  - " +nomes.get(11)
+                +"\n13º  - " +nomes.get(12)
+                +"\n14º  - " +nomes.get(13)
+                +"\n15º  - " +nomes.get(14)
+                +"\n16º  - " +nomes.get(15)
+                +"\n17º  - " +nomes.get(16)
+                +"\n18º  - " +nomes.get(17)
+                +"\n19º  - " +nomes.get(18)
+                +"\n20º  - " +nomes.get(19)
+                +"\n21º  - " +nomes.get(20)
+                +"\n22º  - " +nomes.get(21)
+                +"\n23º  - " +nomes.get(22)
+                +"\n24º  - " +nomes.get(23)
+                +"\n25º  - " +nomes.get(24)
+              
+        );  
+        
+        String maiorNome = "";
+       
+        if (nomes.get(0).length() > maiorNome.length()){
+        maiorNome = nomes.get(0);
+        }
+        if (nomes.get(1).length() > maiorNome.length()){
+        maiorNome = nomes.get(1);      
+        }
+        if (nomes.get(2).length() > maiorNome.length()){
+        maiorNome = nomes.get(2);
+        }
+        if (nomes.get(3).length() > maiorNome.length()){
+        maiorNome = nomes.get(3);      
+        }
+        if (nomes.get(4).length() > maiorNome.length()){
+        maiorNome = nomes.get(4);
+        }
+        if (nomes.get(5).length() > maiorNome.length()){
+        maiorNome = nomes.get(5);      
+        }
+        if (nomes.get(6).length() > maiorNome.length()){
+        maiorNome = nomes.get(6);
+        }
+        if (nomes.get(7).length() > maiorNome.length()){
+        maiorNome = nomes.get(7);      
+        }
+        if (nomes.get(8).length() > maiorNome.length()){
+        maiorNome = nomes.get(8);
+        }
+        if (nomes.get(9).length() > maiorNome.length()){
+        maiorNome = nomes.get(9);      
+        }
+        if (nomes.get(10).length() > maiorNome.length()){
+        maiorNome = nomes.get(100);
+        }
+        if (nomes.get(11).length() > maiorNome.length()){
+        maiorNome = nomes.get(11);      
+        }
+        if (nomes.get(12).length() > maiorNome.length()){
+        maiorNome = nomes.get(12);      
+        }
+        if (nomes.get(13).length() > maiorNome.length()){
+        maiorNome = nomes.get(13);      
+        }
+        if (nomes.get(14).length() > maiorNome.length()){
+        maiorNome = nomes.get(14);      
+        }
+        if (nomes.get(15).length() > maiorNome.length()){
+        maiorNome = nomes.get(15);
+        }
+        if (nomes.get(16).length() > maiorNome.length()){
+        maiorNome = nomes.get(16);      
+        }
+        if (nomes.get(17).length() > maiorNome.length()){
+        maiorNome = nomes.get(17);
+        }
+        if (nomes.get(18).length() > maiorNome.length()){
+        maiorNome = nomes.get(18);      
+        }
+        if (nomes.get(19).length() > maiorNome.length()){
+        maiorNome = nomes.get(19);
+        }
+        if (nomes.get(20).length() > maiorNome.length()){
+        maiorNome = nomes.get(20);      
+        }
+        if (nomes.get(21).length() > maiorNome.length()){
+        maiorNome = nomes.get(21);
+        }
+        if (nomes.get(22).length() > maiorNome.length()){
+        maiorNome = nomes.get(22);      
+        }
+        if (nomes.get(23).length() > maiorNome.length()){
+        maiorNome = nomes.get(23);
+        }
+        if (nomes.get(24).length() > maiorNome.length()){
+        maiorNome = nomes.get(24);      
+        }
+        
+        String menorNome = maiorNome;
+        
+        if (nomes.get(0).length() < menorNome.length()){
+        menorNome = nomes.get(0);
+        }
+        if (nomes.get(1).length() < menorNome.length()){
+        menorNome = nomes.get(1);      
+        }
+        if (nomes.get(2).length() < menorNome.length()){
+        menorNome = nomes.get(2);
+        }
+        if (nomes.get(3).length() < menorNome.length()){
+        menorNome = nomes.get(3);      
+        }
+        if (nomes.get(4).length() < menorNome.length()){
+        menorNome = nomes.get(4);
+        }
+        if (nomes.get(5).length() < menorNome.length()){
+        menorNome = nomes.get(5);      
+        }
+        if (nomes.get(6).length() < menorNome.length()){
+        menorNome = nomes.get(6);
+        }
+        if (nomes.get(7).length() < menorNome.length()){
+        menorNome = nomes.get(7);      
+        }
+        if (nomes.get(8).length() < menorNome.length()){
+        menorNome = nomes.get(8);
+        }
+        if (nomes.get(9).length() < menorNome.length()){
+        menorNome = nomes.get(9);      
+        }
+        if (nomes.get(10).length() < menorNome.length()){
+        menorNome = nomes.get(11);
+        }
+        if (nomes.get(12).length() < menorNome.length()){
+        menorNome = nomes.get(12);      
+        }
+        if (nomes.get(13).length() < menorNome.length()){
+        menorNome = nomes.get(13);      
+        }
+        if (nomes.get(14).length() < menorNome.length()){
+        menorNome = nomes.get(14);
+        }
+        if (nomes.get(15).length() < menorNome.length()){
+        menorNome = nomes.get(15);      
+        }
+        if (nomes.get(16).length() < menorNome.length()){
+        menorNome = nomes.get(16);
+        }
+        if (nomes.get(17).length() < menorNome.length()){
+        menorNome = nomes.get(17);      
+        }
+        if (nomes.get(18).length() < menorNome.length()){
+        menorNome = nomes.get(18);
+        }
+        if (nomes.get(19).length() < menorNome.length()){
+        menorNome = nomes.get(19);      
+        }
+        if (nomes.get(20).length() < menorNome.length()){
+        menorNome = nomes.get(20);
+        }
+        if (nomes.get(21).length() < menorNome.length()){
+        menorNome = nomes.get(21);      
+        }
+        if (nomes.get(23).length() < menorNome.length()){
+        menorNome = nomes.get(23);
+        }
+        if (nomes.get(22).length() < menorNome.length()){
+        menorNome = nomes.get(22);
+        }
+        if (nomes.get(24).length() < menorNome.length()){
+        menorNome = nomes.get(24);      
+        }
+        
+        JOptionPane.showMessageDialog(null,
+                "Confira o maior e o menor nome registrados:"
+                +"\n"
+                +"\nMaior nome: "
+                +"\n" +maiorNome
+                +"\n"
+                +"\nMenor nome: "
+                +"\n" +menorNome);
+        
+        
+    }
+    
+}
