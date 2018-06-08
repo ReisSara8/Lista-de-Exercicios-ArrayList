@@ -55,157 +55,21 @@ public class Exercicio07 {
         );  
         
         String maiorNome = "";
-       
+        for (int i = 0; i < nomes.size() ; i++){
         if (nomes.get(0).length() > maiorNome.length()){
         maiorNome = nomes.get(0);
         }
-        if (nomes.get(1).length() > maiorNome.length()){
-        maiorNome = nomes.get(1);      
-        }
-        if (nomes.get(2).length() > maiorNome.length()){
-        maiorNome = nomes.get(2);
-        }
-        if (nomes.get(3).length() > maiorNome.length()){
-        maiorNome = nomes.get(3);      
-        }
-        if (nomes.get(4).length() > maiorNome.length()){
-        maiorNome = nomes.get(4);
-        }
-        if (nomes.get(5).length() > maiorNome.length()){
-        maiorNome = nomes.get(5);      
-        }
-        if (nomes.get(6).length() > maiorNome.length()){
-        maiorNome = nomes.get(6);
-        }
-        if (nomes.get(7).length() > maiorNome.length()){
-        maiorNome = nomes.get(7);      
-        }
-        if (nomes.get(8).length() > maiorNome.length()){
-        maiorNome = nomes.get(8);
-        }
-        if (nomes.get(9).length() > maiorNome.length()){
-        maiorNome = nomes.get(9);      
-        }
-        if (nomes.get(10).length() > maiorNome.length()){
-        maiorNome = nomes.get(100);
-        }
-        if (nomes.get(11).length() > maiorNome.length()){
-        maiorNome = nomes.get(11);      
-        }
-        if (nomes.get(12).length() > maiorNome.length()){
-        maiorNome = nomes.get(12);      
-        }
-        if (nomes.get(13).length() > maiorNome.length()){
-        maiorNome = nomes.get(13);      
-        }
-        if (nomes.get(14).length() > maiorNome.length()){
-        maiorNome = nomes.get(14);      
-        }
-        if (nomes.get(15).length() > maiorNome.length()){
-        maiorNome = nomes.get(15);
-        }
-        if (nomes.get(16).length() > maiorNome.length()){
-        maiorNome = nomes.get(16);      
-        }
-        if (nomes.get(17).length() > maiorNome.length()){
-        maiorNome = nomes.get(17);
-        }
-        if (nomes.get(18).length() > maiorNome.length()){
-        maiorNome = nomes.get(18);      
-        }
-        if (nomes.get(19).length() > maiorNome.length()){
-        maiorNome = nomes.get(19);
-        }
-        if (nomes.get(20).length() > maiorNome.length()){
-        maiorNome = nomes.get(20);      
-        }
-        if (nomes.get(21).length() > maiorNome.length()){
-        maiorNome = nomes.get(21);
-        }
-        if (nomes.get(22).length() > maiorNome.length()){
-        maiorNome = nomes.get(22);      
-        }
-        if (nomes.get(23).length() > maiorNome.length()){
-        maiorNome = nomes.get(23);
-        }
-        if (nomes.get(24).length() > maiorNome.length()){
-        maiorNome = nomes.get(24);      
+            
         }
         
         String menorNome = maiorNome;
+        for (int i = 0; i < nomes.size() ; i++){
+        if (nomes.get(i).length() < menorNome.length()){
+        menorNome = nomes.get(i);
+        }
         
-        if (nomes.get(0).length() < menorNome.length()){
-        menorNome = nomes.get(0);
         }
-        if (nomes.get(1).length() < menorNome.length()){
-        menorNome = nomes.get(1);      
-        }
-        if (nomes.get(2).length() < menorNome.length()){
-        menorNome = nomes.get(2);
-        }
-        if (nomes.get(3).length() < menorNome.length()){
-        menorNome = nomes.get(3);      
-        }
-        if (nomes.get(4).length() < menorNome.length()){
-        menorNome = nomes.get(4);
-        }
-        if (nomes.get(5).length() < menorNome.length()){
-        menorNome = nomes.get(5);      
-        }
-        if (nomes.get(6).length() < menorNome.length()){
-        menorNome = nomes.get(6);
-        }
-        if (nomes.get(7).length() < menorNome.length()){
-        menorNome = nomes.get(7);      
-        }
-        if (nomes.get(8).length() < menorNome.length()){
-        menorNome = nomes.get(8);
-        }
-        if (nomes.get(9).length() < menorNome.length()){
-        menorNome = nomes.get(9);      
-        }
-        if (nomes.get(10).length() < menorNome.length()){
-        menorNome = nomes.get(11);
-        }
-        if (nomes.get(12).length() < menorNome.length()){
-        menorNome = nomes.get(12);      
-        }
-        if (nomes.get(13).length() < menorNome.length()){
-        menorNome = nomes.get(13);      
-        }
-        if (nomes.get(14).length() < menorNome.length()){
-        menorNome = nomes.get(14);
-        }
-        if (nomes.get(15).length() < menorNome.length()){
-        menorNome = nomes.get(15);      
-        }
-        if (nomes.get(16).length() < menorNome.length()){
-        menorNome = nomes.get(16);
-        }
-        if (nomes.get(17).length() < menorNome.length()){
-        menorNome = nomes.get(17);      
-        }
-        if (nomes.get(18).length() < menorNome.length()){
-        menorNome = nomes.get(18);
-        }
-        if (nomes.get(19).length() < menorNome.length()){
-        menorNome = nomes.get(19);      
-        }
-        if (nomes.get(20).length() < menorNome.length()){
-        menorNome = nomes.get(20);
-        }
-        if (nomes.get(21).length() < menorNome.length()){
-        menorNome = nomes.get(21);      
-        }
-        if (nomes.get(23).length() < menorNome.length()){
-        menorNome = nomes.get(23);
-        }
-        if (nomes.get(22).length() < menorNome.length()){
-        menorNome = nomes.get(22);
-        }
-        if (nomes.get(24).length() < menorNome.length()){
-        menorNome = nomes.get(24);      
-        }
+        
         
         JOptionPane.showMessageDialog(null,
                 "Confira o maior e o menor nome registrados:"
@@ -218,19 +82,22 @@ public class Exercicio07 {
         
         String contabilizar1 = "Pedro";
 		int contador1 = 0;
-		for(int i=0; i < nomes.size(); i++) {
-			String s = nomes.get(i);
+		for(int j=0; j < nomes.size(); j++) {
+			String s = nomes.get(j);
 			if(s.contains(contabilizar1)) contador1++;
 		}
+  
 		JOptionPane.showMessageDialog(null,
                         "A lista contém " + contador1 + " pessoas com o nome \"" + contabilizar1 +"\"");
                 
+    
         String contabilizar2 = "Ana";
 		int contador2 = 0;
 		for(int i=0; i < nomes.size(); i++) {
 			String s = nomes.get(i);
-			if(s.contains(contabilizar1)) contador2++;
+			if(s.contains(contabilizar2)) contador2++;
 		}
+                
 		JOptionPane.showMessageDialog(null,
                         "A lista contém " + contador2 + " pessoas com o nome \"" + contabilizar2 +"\"");
                 
