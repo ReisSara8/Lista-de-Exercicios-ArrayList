@@ -16,12 +16,12 @@ public class Exercicio05 {
         String outroNome = JOptionPane
             .showInputDialog("Digite um nome e verificaremos se ele está na \nlista dos nomes que já foram digitados anteriormente:");
         
-          JOptionPane.showMessageDialog(null,
+           JOptionPane.showMessageDialog(null,
                 "Olá, confira a seguir a listagem dos nomes que foram digitados:" + "\n"
-                +"\n0º  - " +nomes.get(0)
-                +"\n1º  - " +nomes.get(1)
-                +"\n2º  - " +nomes.get(2)
-                +"\n3º  - " +nomes.get(3)
+                +"\n1º  - " +nomes.get(0)
+                +"\n2º  - " +nomes.get(1)
+                +"\n3º  - " +nomes.get(2)
+                +"\n4º  - " +nomes.get(3)
         );  
         
         for (int i = 0; i <nomes.size(); i++){
