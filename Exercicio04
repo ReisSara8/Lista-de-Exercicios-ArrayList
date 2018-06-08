@@ -23,8 +23,7 @@ public class Exercicio04 {
          }
          
         numeros.remove(2);
-        
-        System.out.println("\nNúmeros: " +"\n" +"\n*Número na posição 3 foi removido!" +"\n");
+       System.out.println("\nNúmeros: " +"\n" +"\n*O número " +numeros.get(2) +" na posição 3 foi removido!" +"");
          for (int i = 0; i < numeros.size(); i++) {
             System.out.println(numeros.get(i));
         }
@@ -32,7 +31,7 @@ public class Exercicio04 {
         numeros.remove(3);
         
         System.out.println("\nQuantidade de números: "+numeros.size());
-        System.out.println("\nNúmeros: " +"\n" +"\n*Número na posição 4 foi removido!" +"\n");
+        System.out.println("\nNúmeros: " +"\n" +"\n*O número " +numeros.get(3) +" na posição 4 foi removido!" +"\n");
          for (int i = 0; i < numeros.size(); i++) {
             System.out.println(numeros.get(i));
         }
