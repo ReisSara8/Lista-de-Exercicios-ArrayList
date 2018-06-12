@@ -56,8 +56,8 @@ public class Exercicio07 {
         
         String maiorNome = "";
         for (int i = 0; i < nomes.size() ; i++){
-        if (nomes.get(0).length() > maiorNome.length()){
-        maiorNome = nomes.get(0);
+        if (nomes.get(i).length() > maiorNome.length()){
+        maiorNome = nomes.get(i);
         }
             
         }
