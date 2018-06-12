@@ -1,0 +1,47 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exerciciosarraylist;
+
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author user
+ */
+public class Exercicio09 {
+    
+    public static void main (String[]args){
+        
+        ArrayList<Integer> numeros = new ArrayList<>();
+        JOptionPane.showMessageDialog(null,"                                 Bem-vindo!" +"\n" +"Por favor, insira números nas caixas de textos a seguir.");
+        for (int i = 0; i < 5 ; i++){
+            numeros.add(Integer.parseInt(JOptionPane
+            .showInputDialog("Número: ")));
+            }
+        
+        JOptionPane.showMessageDialog(null,
+                "Listagem dos números registrados:"
+                +"\n"
+                +"\n1º  - " +numeros.get(0)
+                +"\n2º  - " +numeros.get(1) 
+                +"\n3º  - " +numeros.get(2) 
+                +"\n4º  - " +numeros.get(3) 
+                +"\n5º  - " +numeros.get(4));
+        
+       
+            if(numeros.get(0) == numeros.get(4)){
+                JOptionPane.showMessageDialog(null, 
+                        "O número " +numeros.get(0) +" está contido em dois lugares:"
+                        +"\nNa primeira posição e também na última!");
+            }else{
+                JOptionPane.showMessageDialog(null, 
+                        "O número na primeira posição e na última são diferentes.");
+            
+        }
+    }
+    
+}
