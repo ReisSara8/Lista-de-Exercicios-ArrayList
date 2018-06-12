@@ -1,0 +1,81 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exerciciosarraylist;
+
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author user
+ */
+public class Exercicio08 {
+    
+    public static void main (String[]args){
+        
+          ArrayList<Double> salarios = new ArrayList<>();
+        JOptionPane.showMessageDialog(null,"                                 Bem-vindo!" +"\n" +"Por favor, insira salários nas caixas de textos a seguir.");
+        for (int i = 0; i < 10 ; i++){
+            salarios.add(Double.parseDouble(JOptionPane
+            .showInputDialog("Informe salários: " +"\n(Ex. 1.200)")));
+        }
+        
+        JOptionPane.showMessageDialog(null,
+                "Confira abaixo a lista de salários registrados:"
+                +"\n"
+                +"\nR$" +salarios.get(0)
+                +"\nR$" +salarios.get(1)
+                +"\nR$" +salarios.get(2)
+                +"\nR$" +salarios.get(3)
+                +"\nR$" +salarios.get(4)
+                +"\nR$" +salarios.get(5)
+                +"\nR$" +salarios.get(6)
+                +"\nR$" +salarios.get(7)
+                +"\nR$" +salarios.get(8)
+                +"\nR$" +salarios.get(9)
+        );
+        
+        double soma = salarios.get(0) +salarios.get(1) +salarios.get(2) +salarios.get(3) +salarios.get(4) +salarios.get(5) +
+                      salarios.get(6) +salarios.get(7) +salarios.get(8) +salarios.get(9);
+        double media = soma / salarios.size();
+        
+        JOptionPane.showMessageDialog(null, 
+                "Veja agora o resultado da somatória dos salários e a média deles:"
+                +"\n"
+                +"\nSoma :"
+                +"\nR$" +soma
+                +"\n"
+                +"\nMédia :"
+                +"\nR$" +media
+        );
+        
+        double somaPares = salarios.get(2) +salarios.get(4) +salarios.get(6) +salarios.get(8);
+        
+        double somaInpares = salarios.get(1) +salarios.get(3) +salarios.get(5) +salarios.get(7)
+                +salarios.get(9);
+        
+        double mediaImpares = somaInpares / 5;
+        
+        JOptionPane.showMessageDialog(null, 
+                "Veja os resultados da somatória dos salários em posições"
+                +"\npares e a média de salários em posições ímpares:"
+                +"\n"
+                +"\nSoma (Posições pares):"
+                +"\nR$" +somaPares
+                +"\n"
+                +"\nMédia (Posições ímpares):"
+                +"\nR$" +mediaImpares
+         );
+        
+        JOptionPane.showMessageDialog(null, 
+                "E agora confira o tamanho de elementos da lista de salários:"
+                +"\n"
+                +"\nEssa lista contém " +salarios.size() +" elementos.");
+        
+        
+    }
+    
+}
