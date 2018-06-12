@@ -1,0 +1,65 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exerciciosarraylist;
+
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author Alunos
+ */
+public class Exercicio10 {
+    
+    public static void main (String[]args){
+        
+        ArrayList<Integer> lista1 = new ArrayList<>();
+        JOptionPane.showMessageDialog(null,"                                 Bem-vindo!" +"\n" +"Por favor, insira números nas caixas de textos a seguir.");
+        for (int i = 0; i < 7; i++) {
+            lista1.add(Integer.parseInt(
+                    JOptionPane.showInputDialog("Informe números:"
+                    )));
+        }
+        
+        ArrayList<Integer> lista2 = new ArrayList<>();
+        JOptionPane.showMessageDialog(null, "Por favor, insira mais números nas caixas de textos a seguir.");
+        for (int i = 0; i < 7; i++) {
+            lista2.add(Integer.parseInt(
+                    JOptionPane.showInputDialog("Informe números:"
+                    )));
+        }
+        
+        if(lista1.equals(lista2)){
+            JOptionPane.showMessageDialog(null,
+                    "As duas listas possuem elementos iguais!"
+                    +"\n"
+                    +"\nLista 1 :" +"                Lista 2 :"
+                    +"\n" +lista1.get(0) +"                             "+lista1.get(0) 
+                    +"\n" +lista1.get(1) +"                             "+lista1.get(1) 
+                    +"\n" +lista1.get(2) +"                             "+lista1.get(2) 
+                    +"\n" +lista1.get(3) +"                             "+lista1.get(3) 
+                    +"\n" +lista1.get(4) +"                             "+lista1.get(4) 
+                    +"\n" +lista1.get(5) +"                             "+lista1.get(5) 
+                    +"\n" +lista1.get(6) +"                             "+lista1.get(6) 
+            );
+            }else{
+            JOptionPane.showMessageDialog(null, 
+                    "As duas listas não possuem todos os elementos iguais!"
+                    +"\n"
+                      +"\nLista 1 :" +"                Lista 2 :"
+                    +"\n" +lista1.get(0) +"                             "+lista1.get(0) 
+                    +"\n" +lista1.get(1) +"                             "+lista1.get(1) 
+                    +"\n" +lista1.get(2) +"                             "+lista1.get(2) 
+                    +"\n" +lista1.get(3) +"                             "+lista1.get(3) 
+                    +"\n" +lista1.get(4) +"                             "+lista1.get(4) 
+                    +"\n" +lista1.get(5) +"                             "+lista1.get(5) 
+                    +"\n" +lista1.get(6) +"                             "+lista1.get(6) 
+            );
+        }
+        
+    }
+    
+}
