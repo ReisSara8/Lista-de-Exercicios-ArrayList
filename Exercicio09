@@ -33,7 +33,7 @@ public class Exercicio09 {
                 +"\n5º  - " +numeros.get(4));
         
        
-            if(numeros.get(0) == numeros.get(4)){
+            if(numeros.get(0).equals(numeros.get(4))){
                 JOptionPane.showMessageDialog(null, 
                         "O número " +numeros.get(0) +" está contido em dois lugares:"
                         +"\nNa primeira posição e também na última!");
