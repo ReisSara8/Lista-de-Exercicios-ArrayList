@@ -34,30 +34,12 @@ public class Exercicio10 {
         
         if(lista1.equals(lista2)){
             JOptionPane.showMessageDialog(null,
-                    "As duas listas possuem elementos iguais!"
-                    +"\n"
-                    +"\nLista 1 :" +"                Lista 2 :"
-                    +"\n" +lista1.get(0) +"                             "+lista1.get(0) 
-                    +"\n" +lista1.get(1) +"                             "+lista1.get(1) 
-                    +"\n" +lista1.get(2) +"                             "+lista1.get(2) 
-                    +"\n" +lista1.get(3) +"                             "+lista1.get(3) 
-                    +"\n" +lista1.get(4) +"                             "+lista1.get(4) 
-                    +"\n" +lista1.get(5) +"                             "+lista1.get(5) 
-                    +"\n" +lista1.get(6) +"                             "+lista1.get(6) 
-            );
+                    "Todos os elementos das duas listas são iguais!"
+                      );
             }else{
             JOptionPane.showMessageDialog(null, 
                     "As duas listas não possuem todos os elementos iguais!"
-                    +"\n"
-                      +"\nLista 1 :" +"                Lista 2 :"
-                    +"\n" +lista1.get(0) +"                             "+lista1.get(0) 
-                    +"\n" +lista1.get(1) +"                             "+lista1.get(1) 
-                    +"\n" +lista1.get(2) +"                             "+lista1.get(2) 
-                    +"\n" +lista1.get(3) +"                             "+lista1.get(3) 
-                    +"\n" +lista1.get(4) +"                             "+lista1.get(4) 
-                    +"\n" +lista1.get(5) +"                             "+lista1.get(5) 
-                    +"\n" +lista1.get(6) +"                             "+lista1.get(6) 
-            );
+                   );
         }
         
     }
